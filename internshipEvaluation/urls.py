@@ -18,6 +18,6 @@ from django.urls import path
 from evaluation.views import HomepageView
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', HomepageView.as_view(), name='home')
+    path("admin/", admin.site.urls),
+    path("", HomepageView.as_view(), name="home"),
 ]
