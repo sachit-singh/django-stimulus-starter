@@ -12,7 +12,9 @@
 ```bash
 git clone https://github.com/sbs/this@django-stimulus-starter.git
 
-cp .env.example .env
+cd djang-stimulus-starter
+
+cp .env.example .env (and update .env)
 
 docker-compose up
 
